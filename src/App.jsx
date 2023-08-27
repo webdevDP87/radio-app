@@ -46,7 +46,7 @@ function App() {
 	}
 
 	const getRadioStations = (countryCode) => {
-		fetch(`https://de1.api.radio-browser.info/json/stations/bycountrycodeexact/${countryCode}`).
+		fetch(`https://at1.api.radio-browser.info/json/stations/bycountrycodeexact/${countryCode}`).
 			then(res => res.json()).
 			then(data => { setRadioStations(data) }
 		)
